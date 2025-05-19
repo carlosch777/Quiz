@@ -1,0 +1,223 @@
+body { 
+
+    background: url("https://img.freepik.com/free-vector/stylish-think-ask-question-mark-concept-template-design_1017-50389.jpg?t=st=1729698360~exp=1729701960~hmac=8860ccbb9d28daa6769b7ec5e82e9665159ff0ced3c82191c4f7ac318ea8f511&w=740"); 
+
+    background-size: cover; /* Faz a imagem de fundo cobrir toda a área do elemento */ 
+
+    background-position: center; /* Centraliza a imagem de fundo */ 
+
+    min-height: 100vh; /* Define a altura mínima do body como 100% da altura da janela de visualização */ 
+
+    display: flex; /* Define o layout do body como um flex container */ 
+
+    align-items: center; /* Alinha os itens no eixo vertical ao centro */ 
+
+    justify-content: center; /* Alinha os itens no eixo horizontal ao centro */ 
+
+} 
+
+.app { 
+
+    background: transparent; 
+
+    backdrop-filter: blur(120px); /* deixa a caixa de pergunta com efeito blur*/ 
+
+    width: 50%; /*Largura*/ 
+
+    max-width: 900px; /*Largura maxima*/ 
+
+    margin: 100px auto 0; /*Margem*/ 
+
+    border-radius: 10px; /*Borda*/ 
+
+    padding: 50px; /*Espaço dentro da caixa*/ 
+
+} 
+
+img{ 
+
+    border-radius: 100%; 
+
+    width: 100px; 
+
+} 
+
+img:hover{ 
+
+    transform: scale(1.2, 1.2); 
+
+} 
+
+.app h1 { 
+
+    text-align: center;/*Alinhando texto no cento*/ 
+
+    font-size: 30px; /*Tamanho da fonte*/ 
+
+    color: #000000; /*Cor*/ 
+
+    font-weight: 600;/*peso/largura da fonte*/ 
+
+    border-bottom: 3px solid #333; /*Linha de divisão*/ 
+
+    padding-bottom: 30px; /*Distância do título até a pergunta*/ 
+
+} 
+
+.quiz { 
+
+    padding: 20px 0; /*Distância do título até a pergunta*/ 
+
+} 
+
+.quiz h2 { 
+
+    font-size: 30px; /*Tamanho da fonte*/ 
+
+    color: #000000;/*Cor da fonte*/ 
+
+    font-weight: 650;/*peso/largura da fonte*/ 
+
+} 
+
+    .btn { 
+
+        background: #fff;/*Cor do botão*/ 
+
+        color: 222;/*Cor do texto*/ 
+
+        font-weight: 600;/*peso/largura da fonte*/ 
+
+        width: 95%;/*Tamanho do botão*/ 
+
+        border: 1px solid#222;/*peso/largura da borda e sua cor*/ 
+
+        padding: 10px;/*Espaço dentro do botão*/ 
+
+        margin: 10px; /*Espaço entre os botões*/ 
+
+        text-align: left;/*Alinhando texto a esquerda*/ 
+
+        border-radius: 4px;/*Aredondamento da borda*/ 
+
+        cursor: pointer;/*Muda o cursor do mause ao passar no botão*/ 
+
+        transition: all 0.3s;/*Tempo de transição ao interagir com o botão*/ 
+
+    } 
+
+    .btn:hover:not([disabled]) { /*Interação com o botão*/ 
+
+        background: #222;/*Mudar a cor do butão na interação*/ 
+
+        color: #fff;/*Muda a cor do texto do botão na interação*/ 
+
+    } 
+
+    /*altera o cursor ao selecionar a pergunta*/ 
+
+    .btn:disabled{ 
+
+    cursor: no-drop; 
+
+    } 
+
+    #prox-btn { 
+
+        background: rgb(51, 81, 151);/*Cor do botão*/ 
+
+        color: #fff;/*Cor do texto*/ 
+
+        font-weight: 500;/*peso/largura da fonte*/ 
+
+        width: 150px;/*Tamanho do botão*/ 
+
+        border: 0;/*peso/largura da borda*/ 
+
+        padding: 10px;/*Espaço dentro do botão*/ 
+
+        margin: 20px auto 0;/*Espaço entre os outros botões*/ 
+
+        border-radius: 4px;/*Aredondamento da borda*/ 
+
+        cursor: pointer;/*Muda o cursor do mause ao passar no botão*/ 
+
+    } 
+
+    .correto { 
+
+        background: #9aeabc;/*Cor do botão da resposta correta*/ 
+
+    } 
+
+    .incorreto{ 
+
+        background: #ff9393;/*Cor do botão da resposa incorreta*/ 
+
+    } 
+
+    #cronometro { 
+
+        font-size: 18px; 
+
+        background: rgb(26, 95, 26); /* Cor de fundo */ 
+
+        color: white; /* Cor do texto */ 
+
+        padding: 4px; /* Espaçamento interno */ 
+
+        border-radius: 50%; /* Torna o elemento redondo */ 
+
+        width: 50px; /* Largura do cronômetro */ 
+
+        height: 50px; /* Altura do cronômetro */ 
+
+        display: flex; /* Flexbox para centralizar texto */ 
+
+        align-items: center; /* Centraliza verticalmente */ 
+
+        justify-content: center; /* Centraliza horizontalmente */ 
+
+        margin-bottom: 20px; 
+
+        /* Adiciona uma margem inferior de 20 pixels ao elemento, criando espaço entre ele e o próximo elemento abaixo. */ 
+
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
+        /* Adiciona uma sombra ao elemento.  
+
+           - O primeiro valor (0) é o deslocamento horizontal da sombra. 
+
+           - O segundo valor (4px) é o deslocamento vertical. 
+
+           - O terceiro valor (8px) é o desfoque da sombra. 
+
+           - A cor é definida em RGBA, onde 0.2 é a opacidade da sombra. */ 
+
+         transition: background 0.5s; 
+
+        /* Define uma transição suave para a propriedade 'background' ao longo de 0.5 segundos.  
+
+           Isso significa que, ao alterar a cor de fundo do elemento, a mudança será gradual. */ 
+
+        position: absolute; 
+
+        /* Define a posição do elemento como absoluta, permitindo que ele seja posicionado em relação ao seu ancestral mais próximo que tenha uma posição relativa.  
+
+           Isso tira o elemento do fluxo normal do documento. */ 
+
+         top: 20px; 
+
+        /* Define a posição superior do elemento a 120 pixels a partir do topo do seu contêiner posicionado. */ 
+
+        right: 70px; 
+
+        /* Define a posição do elemento a 470 pixels a partir da borda direita do seu contêiner posicionado. */ 
+
+    } 
+
+    #cronometro.baixo { 
+
+        background: #aa1f16; /* Cor de fundo quando o tempo estiver baixo */ 
+
+    } 

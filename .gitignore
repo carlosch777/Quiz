@@ -1,0 +1,34 @@
+# Ignora pastas de sistema
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos temporários de editores
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignora arquivos do VSCode
+.vscode/
+
+# Ignora arquivos do sistema operacional
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Ignora arquivos de cache
+.cache/
+*.cache
+
+# Ignora arquivos de ambiente ou variáveis locais
+.env
+
+# Ignora dependências do Composer (se usar futuramente)
+vendor/
+
+# Ignora pastas de build (caso você use algum processo de build depois)
+dist/
+build/
+
+# Ignora node_modules (caso use ferramentas JS no futuro)
+node_modules/

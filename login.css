@@ -1,0 +1,195 @@
+ /* Estilos globais */ 
+
+ * { 
+
+    margin: 0; /* Remove margens padrão */ 
+
+    padding: 0; /* Remove preenchimentos padrão */ 
+
+    box-sizing: border-box; /* Inclui o padding e a borda na largura e altura totais */ 
+
+    font-family: "Poppins", sans-serif; /* Define a fonte da página */ 
+
+} 
+
+ 
+
+/* Estilos para o body */ 
+
+body { 
+
+    background: url("https://img.freepik.com/free-vector/stylish-think-ask-question-mark-concept-template-design_1017-50389.jpg?t=st=1729698360~exp=1729701960~hmac=8860ccbb9d28daa6769b7ec5e82e9665159ff0ced3c82191c4f7ac318ea8f511&w=740"); /* Define uma imagem de fundo */ 
+
+    background-size: cover; /* Cobre todo o fundo com a imagem */ 
+
+    background-position: center; /* Centraliza a imagem de fundo */ 
+
+    min-height: 100vh; /* Define a altura mínima como a altura da viewport */ 
+
+    display: flex; /* Usa flexbox para centralizar os elementos */ 
+
+    align-items: center; /* Centraliza verticalmente */ 
+
+    justify-content: center; /* Centraliza horizontalmente */ 
+
+} 
+
+ 
+
+/* Estilo do contêiner principal */ 
+
+.container { 
+
+    width: 420px; /* Largura do contêiner */ 
+
+    background: transparent; /* Fundo transparente */ 
+
+    border: 2px solid rgba(255, 255, 255, .2); /* Borda semi-transparente */ 
+
+    backdrop-filter: blur(20px); /* Efeito de desfoque no fundo */ 
+
+    border-radius: 10px; /* Cantos arredondados */ 
+
+    padding: 30px 40px; /* Espaçamento interno */ 
+
+} 
+
+ 
+
+/* Estilos para o título */ 
+
+h2 { 
+
+    font-size: 36px; /* Tamanho da fonte do título */ 
+
+    text-align: center; /* Centraliza o texto */ 
+
+    color: #fff; /* Cor do texto */ 
+
+    border: none; /* Remove borda */ 
+
+    border-radius: 10px; /* Cantos arredondados */ 
+
+} 
+
+ 
+
+/* Estilos para o parágrafo */ 
+
+.p { 
+
+    font-size: 16px; /* Tamanho da fonte */ 
+
+    color: #fff; /* Cor do texto */ 
+
+    font-weight: 500; /* Peso da fonte */ 
+
+} 
+
+ 
+
+/* Estilos para o contêiner de input */ 
+
+.input-container input { 
+
+    width: 100%; /* Largura total */ 
+
+    height: 100%; /* Altura total */ 
+
+    background: transparent; /* Fundo transparente */ 
+
+    border: none; /* Remove borda */ 
+
+    outline: none; /* Remove contorno ao focar */ 
+
+    border: 2px solid rgba(255, 255, 255, .2); /* Borda semi-transparente */ 
+
+    border-radius: 10px; /* Cantos arredondados */ 
+
+    font-size: 16px; /* Tamanho da fonte */ 
+
+    color: #fff; /* Cor do texto */ 
+
+} 
+
+ 
+
+/* Estilos para o contêiner do input */ 
+
+.input-container { 
+
+    position: relative; /* Permite posicionamento absoluto dos filhos */ 
+
+    width: 100%; /* Largura total */ 
+
+    height: 50px; /* Altura fixa */ 
+
+    margin: 30px 0; /* Margens acima e abaixo */ 
+
+} 
+
+ 
+
+/* Estilos para o placeholder do input */ 
+
+.input-container input::placeholder { 
+
+    color: #fff; /* Cor do placeholder */ 
+
+} 
+
+ 
+
+/* Estilos para a imagem dentro do contêiner de input */ 
+
+.input-container img { 
+
+    position: absolute; /* Permite posicionamento em relação ao contêiner */ 
+
+    right: 9px; /* Distância da direita */ 
+
+    top: 10px; /* Distância do topo */ 
+
+    margin-top: 5px; /* Margem acima */ 
+
+} 
+
+ 
+
+/* Estilos para o botão */ 
+
+button { 
+
+    width: 100%; /* Largura total */ 
+
+    height: 50px; /* Altura fixa */ 
+
+    background-color: #5100b5; /* Cor de fundo */ 
+
+    border: none; /* Remove borda */ 
+
+    border-radius: 10px; /* Cantos arredondados */ 
+
+    color: #fff; /* Cor do texto */ 
+
+    font-weight: 700; /* Peso da fonte */ 
+
+    margin-top: 24px; /* Margem acima */ 
+
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */ 
+
+    outline: none; /* Remove contorno ao focar */ 
+
+    font-size: 16px; /* Tamanho da fonte */ 
+
+} 
+
+ 
+
+/* Efeito ao passar o mouse sobre o botão */ 
+
+button:hover { 
+
+    background-color: #6109cb; /* Cor de fundo ao passar o mouse */ 
+
+} 
