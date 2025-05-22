@@ -244,11 +244,11 @@ function mostrarPontuacao() {
 
     if (pontuacao >= 7){ 
 
-    perguntaElement.innerHTML = `Parabéns ${window.name}!, você acertou ${pontuacao} de ${perguntas.length}!`; 
+    perguntaElement.innerHTML = `Parabéns, ${window.name}! você acertou ${pontuacao} de ${perguntas.length}!`; 
 
     } else{ 
 
-        perguntaElement.innerHTML = `Mais sorte na próxima vez ${window.name}!, você acertou ${pontuacao} de ${perguntas.length}!`; 
+        perguntaElement.innerHTML = `Mais sorte na próxima vez, ${window.name}! você acertou ${pontuacao} de ${perguntas.length}!`; 
 
     } 
 
