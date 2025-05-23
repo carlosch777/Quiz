@@ -14,7 +14,7 @@ Um projeto simples e interativo de quiz com temporizador, desenvolvido como prá
 ---
 ## 📸 Demonstração
 
->https://quiz.infinityfreeapp.com
+>https://meuprojetoquiz-djhrapgsg0e9hee7.canadacentral-01.azurewebsites.net/
 
 ---
 
