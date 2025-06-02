@@ -42,7 +42,7 @@ cérebro1.png # Ícone do favicon
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/quiz-interativo.git
+   git clone https://github.com/carlosch777/Quiz.git
 
 2. Coloque os arquivos em um servidor local (como XAMPP ou WAMP), pois o questions.php precisa de um servidor com PHP.
-3. Acesse no navegador: http://localhost/quiz-projeto/index.html
+3. Acesse no navegador: http://localhost/quiz/index.html
